@@ -7,7 +7,7 @@ body {
   //border: 1px solid black;
 }
 
-button {
+.btn {
   width: fit-content;
   margin: 0px auto;
   padding: 10px 20px;
@@ -16,6 +16,12 @@ button {
   font-weight: 500;
   color: white;
   border-radius: 8px;
+  text-decoration: none;
+  &:hover {
+    background-color: #fff;
+    color: #0754AD;
+    border: 1px solid #0754AD;
+  }
 }
 
 .wrapper {
