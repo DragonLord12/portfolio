@@ -1,0 +1,26 @@
+Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 185.169.0.224 at 2025-08-09 10:49:55 +0000
+Cannot render console from 10.20.10.187! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#welcome as HTML
+  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 9.3ms | Allocations: 484)
+  Rendered partials/_header.html.erb (Duration: 0.7ms | Allocations: 267)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 684.1ms | Allocations: 84377)
+Completed 200 OK in 700ms (Views: 689.4ms | ActiveRecord: 0.0ms | Allocations: 90786)
+
+
+Started GET "/portfolio" for 185.169.0.224 at 2025-08-09 10:49:58 +0000
+Cannot render console from 10.20.11.54! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PortfolioController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered portfolio/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 320)
+  Rendered partials/_header.html.erb (Duration: 0.2ms | Allocations: 75)
+  Rendered partials/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2998)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3868)
+
+
